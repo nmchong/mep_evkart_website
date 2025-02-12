@@ -1,5 +1,5 @@
 import React from "react";
-import SocialMediaButtons from "./SocialMediaButtons";
+import SocialMediaButtons from "../ui/SocialMediaButtons";
 
 const HeroSection = () => {
     return (

@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import './App.css'
-import NavBar from "./components/NavBar"
-import HeroSection from "./components/HeroSection";
-import AboutUsSection from "./components/AboutUsSection"
+import NavBar from "./components/layout/NavBar"
+import HeroSection from "./components/sections/HeroSection";
+import AboutUsSection from "./components/sections/AboutUsSection"
 import About from "./pages/About";
 import Sponsors from "./pages/Sponsors";
 import Contact from "./pages/Contact";
