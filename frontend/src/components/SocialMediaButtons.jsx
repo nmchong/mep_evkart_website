@@ -3,25 +3,29 @@ import { SiInstagram, SiFacebook, SiX, SiGithub, SiGmail } from '@icons-pack/rea
 
 function SocialMediaButtons() {
     return (
-        <div className="flex space-x-2">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white px-3 py-3 rounded-full hover:bg-blue-600">
-                <SiInstagram size={36} />
+        <div className="flex space-x-3">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+               className="bg-[#CFB991] text-[#6F5735] px-4 py-4 rounded-full transition hover:bg-[#B89E7D] hover:text-black">
+                <SiInstagram size={32} />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white px-3 py-3 rounded-full hover:bg-blue-600">
-                <SiFacebook size={36} />
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+               className="bg-[#CFB991] text-[#6F5735] px-4 py-4 rounded-full transition hover:bg-[#B89E7D] hover:text-black">
+                <SiFacebook size={32} />
             </a>
-            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="text-white px-3 py-3 rounded-full hover:bg-blue-600">
-                <SiX size={36} />
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer"
+               className="bg-[#CFB991] text-[#6F5735] px-4 py-4 rounded-full transition hover:bg-[#B89E7D] hover:text-black">
+                <SiX size={32} />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-white px-3 py-3 rounded-full hover:bg-blue-600">
-                <SiGithub size={36} />
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+               className="bg-[#CFB991] text-[#6F5735] px-4 py-4 rounded-full transition hover:bg-[#B89E7D] hover:text-black">
+                <SiGithub size={32} />
             </a>
-            <a href="mailto:email@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white px-3 py-3 rounded-full hover:bg-blue-600">
-                <SiGmail size={36} />
+            <a href="mailto:email@gmail.com" target="_blank" rel="noopener noreferrer"
+               className="bg-[#CFB991] text-[#6F5735] px-4 py-4 rounded-full transition hover:bg-[#B89E7D] hover:text-black">
+                <SiGmail size={32} />
             </a>
         </div>
     );
 }
 
-
-export default SocialMediaButtons
+export default SocialMediaButtons;

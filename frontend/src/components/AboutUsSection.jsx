@@ -1,24 +1,28 @@
 import React from 'react';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import teamPhoto from "../assets/teamPhoto.jpg";
 
 function AboutUsSection() {
     return (
-        <section className="flex flex-col md:flex-row items-center max-w-5xl mx-auto p-6 gap-8">
+        <section className="w-full flex flex-col md:flex-row items-center mx-auto p-12 gap-12 bg-[#555960]">
             {/* image */}
             <div className="w-full md:w-1/2">
                 <img src={teamPhoto} alt="Team Photo" className="w-full h-auto rounded-lg shadow-lg" />
             </div>
 
             {/* text content */}
-            <div className="w-full md:w-1/2 flex flex-col justify-center">
-                <h2 className="text-3xl font-bold text-gray-800">About Us</h2>
-                <p className="text-gray-600 mt-4">
-                    In collaboration with the Minority Engineering Program (MEP), the GoKart team will design, build, and test go-karts for Purdue's eVGrand Prix competition.
+            <div className="w-full md:w-1/2 flex flex-col justify-center text-left">
+                <h2 className="text-4xl font-bold text-[#CFB991] font-sans tracking-wide">
+                    About Us
+                </h2>
+                <p className="text-[#EBD99F] mt-4 leading-relaxed text-lg font-sans">
+                    In collaboration with the Minority Engineering Program (MEP), the GoKart team will design, build, and test go-karts for Purdue's eVGrand Prix competition. placeholder text blah blah blah
                 </p>
-                <button className="mt-6 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
-                    <Link to="/about" className="text-white">Learn More</Link>
-                </button>
+                <Link to="/about">
+                    <button className="mt-6 px-6 py-3 bg-[#DAAA00] text-black font-semibold rounded-lg shadow-md hover:bg-[#8E6F3E] transition font-sans text-lg">
+                        Learn More
+                    </button>
+                </Link>
             </div>
         </section>
     );

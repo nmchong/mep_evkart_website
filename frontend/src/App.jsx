@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import './App.css'
 import NavBar from "./components/NavBar"
-import SocialMediaButtons from "./components/SocialMediaButtons"
+import HeroSection from "./components/HeroSection";
 import AboutUsSection from "./components/AboutUsSection"
 import About from "./pages/About";
 import Sponsors from "./pages/Sponsors";
@@ -19,17 +19,8 @@ function App() {
             path="/"
             element= {
               <>
-                {/* header section */}
-                <main className="flex flex-col items-center justify-center bg-blue-500 py-12 md:py-20 pb-10 text-white">
-
-                    {/* large text */}
-                    <nav className="text-6xl font-bold text-center p-12 mb-10">
-                        MEP evKart
-                    </nav>
-
-                    {/* social media buttons */}
-                    <SocialMediaButtons></SocialMediaButtons>
-                </main>
+                {/* header section (hero section) */}
+                <HeroSection></HeroSection>
 
 
                 {/* about us */}
