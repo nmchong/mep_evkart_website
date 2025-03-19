@@ -4,7 +4,7 @@ import teamPhoto from "../../assets/teamPhoto.jpg";
 
 function AboutUsSection() {
     return (
-        <section className="w-full flex flex-col md:flex-row items-center mx-auto p-12 gap-12 bg-[#555960]">
+        <section className="w-full flex flex-col md:flex-row items-center mx-auto p-10 gap-12 bg-[#555960]">
             {/* image */}
             <div className="w-full md:w-1/2">
                 <img src={teamPhoto} alt="Team Photo" className="w-full h-auto rounded-lg shadow-lg" />
@@ -19,9 +19,10 @@ function AboutUsSection() {
                     In collaboration with the Minority Engineering Program (MEP), the GoKart team will design, build, and test go-karts for Purdue's eVGrand Prix competition. placeholder text blah blah blah
                 </p>
                 <Link to="/about">
-                    <button className="mt-6 px-6 py-3 bg-[#DAAA00] text-black font-semibold rounded-lg shadow-md hover:bg-[#8E6F3E] transition font-sans text-lg">
-                        Learn More
-                    </button>
+                <button className="mt-6 px-6 py-3 bg-[#DAAA00] text-black font-semibold rounded-lg shadow-md hover:bg-[#8E6F3E] transition font-sans text-lg cursor-pointer">
+                    Learn More
+                </button>
+
                 </Link>
             </div>
         </section>

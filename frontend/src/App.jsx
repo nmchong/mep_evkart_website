@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from "./components/layout/NavBar"
 import HeroSection from "./components/sections/HeroSection";
 import AboutUsSection from "./components/sections/AboutUsSection"
+import MetricsSection from "./components/sections/MetricsSection"
 import About from "./pages/About";
 import Sponsors from "./pages/Sponsors";
 import Contact from "./pages/Contact";
@@ -25,6 +26,7 @@ function App() {
 
                 {/* about us */}
                 <AboutUsSection></AboutUsSection>
+                <MetricsSection></MetricsSection>
               </>
             }
           />
