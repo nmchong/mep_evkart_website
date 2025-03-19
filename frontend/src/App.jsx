@@ -21,22 +21,22 @@ function App() {
           <Route
             path="/"
             element= {
-              <>
-                {/* header section (hero section) */}
-                <HeroSection></HeroSection>
+                <>
+                    {/* header section (hero section) */}
+                    <HeroSection></HeroSection>
 
-                {/* below sections */}
-                <AboutUsSection></AboutUsSection>
-                <MetricsSection></MetricsSection>
-                <KartSection></KartSection>
-              </>
+                    {/* below sections */}
+                    <AboutUsSection></AboutUsSection>
+                    <MetricsSection></MetricsSection>
+                    <KartSection></KartSection>
+                </>
             }
-          />
+            />
 
-          {/* other pages: About, Sponsors, Contact */}
-          <Route path="/about" element={<About />} />
-          <Route path="/sponsors" element={<Sponsors />} />
-          <Route path="/contact" element={<Contact />} />
+            {/* other pages: About, Sponsors, Contact */}
+            <Route path="/about" element={<About />} />
+            <Route path="/sponsors" element={<Sponsors />} />
+            <Route path="/contact" element={<Contact />} />
         </Routes>
 
         <Footer></Footer>

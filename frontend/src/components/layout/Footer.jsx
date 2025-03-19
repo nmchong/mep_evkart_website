@@ -4,7 +4,7 @@ import { FaGithub, FaInstagram, FaYoutube, FaEnvelope, FaMapMarkerAlt } from "re
 
 function Footer() {
     return (
-        <footer className="w-full bg-[#2D2F36] text-[#C4BFC0] pt-10 pb-6 px-6">
+        <footer className="w-full bg-[#2D2F36] text-[#C4BFC0] pt-4 pb-6 px-12 md:px-12">
             {/* top divider line */}
             <div className="border-t border-[#555960] w-full mb-6"></div>
 
