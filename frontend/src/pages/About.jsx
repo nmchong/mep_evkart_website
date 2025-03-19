@@ -7,8 +7,8 @@ function About() {
     return (
         <section className="w-full bg-[#1A1A1A] text-white py-16 px-8">
             {/* About Us Section */}
-            <section className="w-full bg-[#1A1A1A] text-white py-8 px-8">
-                <div className="max-w-6xl mx-auto border border-[#EBD99F] rounded-xl p-10 text-center shadow-lg">
+            <section className="w-full bg-[#1A1A1A] text-white py-8 px-8"> 
+                <div className="max-w-6xl mx-auto border border-[#EBD99F] rounded-xl p-10 text-center shadow-lg bg-[#222222]"> {/* Slightly lighter background inside */}
                     {/* Header */}
                     <h2 className="text-6xl font-bold text-[#EBD99F]">About Us</h2>
                     
@@ -32,6 +32,7 @@ function About() {
 
 
 
+
             {/* Image & Text Sections */}
             <div className="max-w-7xl mx-auto mt-12 space-y-28 px-6">
                 
@@ -40,7 +41,7 @@ function About() {
                     <div className="md:w-[70%] flex justify-center">
                         <img src={AboutPhoto1} alt="Students Lead" className="w-full rounded-lg shadow-lg" />
                     </div>
-                    <div className="absolute top-[30%] right-8 md:w-2/5 w-4/5 h-[50%] border border-[#DAAA00] bg-[#0F0F0F]/85 backdrop-blur-3xl rounded-lg p-10 shadow-lg">
+                    <div className="absolute top-[30%] right-8 md:w-2/5 w-4/5 h-[50%] border border-[#DAAA00] bg-[#0F0F0F]/90 backdrop-blur-3xl rounded-lg p-10 shadow-lg">
                         <h3 className="text-3xl font-bold text-[#EBD99F]">Students Lead</h3>
                         <p className="text-[#C4BFC0] mt-3 leading-relaxed">
                             With minimal adult intervention, students make their own choices from kickoff to competition. Every decision from design to picklist is made by student leads.
@@ -53,7 +54,7 @@ function About() {
                     <div className="md:w-[70%] flex justify-center">
                         <img src={AboutPhoto2} alt="Students Learn" className="w-full rounded-lg shadow-lg" />
                     </div>
-                    <div className="absolute top-[30%] left-8 md:w-2/5 w-4/5 h-[50%] border border-[#DAAA00] bg-[#0F0F0F]/85 backdrop-blur-3xl rounded-lg p-10 shadow-lg">
+                    <div className="absolute top-[30%] left-8 md:w-2/5 w-4/5 h-[50%] border border-[#DAAA00] bg-[#0F0F0F]/90 backdrop-blur-3xl rounded-lg p-10 shadow-lg">
                         <h3 className="text-3xl font-bold text-[#EBD99F]">Students Learn</h3>
                         <p className="text-[#C4BFC0] mt-3 leading-relaxed">
                             Blah blah blah equips students with the skills necessary to thrive in their respective fields, offering specialized online courses.
@@ -66,7 +67,7 @@ function About() {
                     <div className="md:w-[70%] flex justify-center">
                         <img src={AboutPhoto3} alt="More Info" className="w-full rounded-lg shadow-lg" />
                     </div>
-                    <div className="absolute top-[30%] right-8 md:w-2/5 w-4/5 h-[50%] border border-[#DAAA00] bg-[#0F0F0F]/85 backdrop-blur-3xl rounded-lg p-10 shadow-lg">
+                    <div className="absolute top-[30%] right-8 md:w-2/5 w-4/5 h-[50%] border border-[#DAAA00] bg-[#0F0F0F]/90 backdrop-blur-3xl rounded-lg p-10 shadow-lg">
                         <h3 className="text-3xl font-bold text-[#EBD99F]">More Info</h3>
                         <p className="text-[#C4BFC0] mt-3 leading-relaxed">
                             As a career technical education (CTE) course, our goal is to prepare students for a career in STEM, focusing on engineering, design, and computer science.
@@ -74,6 +75,10 @@ function About() {
                     </div>
                 </div>
             </div>
+
+
+
+            
         </section>
     );
 }

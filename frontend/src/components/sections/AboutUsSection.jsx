@@ -18,12 +18,18 @@ function AboutUsSection() {
                 <p className="text-[#EBD99F] mt-4 leading-relaxed text-lg font-sans">
                     In collaboration with the Minority Engineering Program (MEP), the GoKart team will design, build, and test go-karts for Purdue's eVGrand Prix competition. placeholder text blah blah blah
                 </p>
-                <Link to="/about">
-                <button className="mt-6 px-6 py-3 bg-[#DAAA00] text-black font-semibold rounded-lg shadow-md hover:bg-[#8E6F3E] transition font-sans text-lg cursor-pointer">
+                <Link 
+                    to="/about"
+                    className="mt-6 px-6 py-3 bg-[#DAAA00] text-black font-semibold rounded-lg shadow-md hover:bg-[#8E6F3E] transition font-sans text-lg cursor-pointer w-fit inline-flex items-center justify-center"
+                    onClick={() => window.scrollTo(0, 0)}
+                >
                     Learn More
-                </button>
-
                 </Link>
+
+
+
+
+
             </div>
         </section>
     );

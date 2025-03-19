@@ -4,20 +4,17 @@ import { FaGithub, FaInstagram, FaYoutube, FaEnvelope, FaMapMarkerAlt } from "re
 
 function Footer() {
     return (
-        <footer className="w-full bg-[#2D2F36] text-[#C4BFC0] pt-4 pb-6 px-12 md:px-12">
-            {/* top divider line */}
-            <div className="border-t border-[#555960] w-full mb-6"></div>
-
+        <footer className="w-full bg-[#1A1A1A] text-[#C4BFC0] pt-8 pb-6 px-8">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
                 
-                {/* about section */}
+                {/* About Section */}
                 <div>
-                    <h3 className="text-xl font-semibold text-white">MEP Kart Team</h3>
+                    <h3 className="text-xl font-semibold text-white">MEP evKart Team</h3>
                     <p className="mt-2 text-[#9D9795]">
-                        The MEP Kart Team competes in Purdue's eVGrand Prix, showcasing engineering excellence.
+                        The MEP Kart Team competes in Purdue's collegiate evGrand Prix, showcasing engineering excellence.
                     </p>
                     
-                    {/* social media icons */}
+                    {/* Social Media Icons */}
                     <div className="flex space-x-4 mt-4">
                         <a href="#" className="text-[#9D9795] hover:text-[#DAAA00] transition">
                             <FaGithub size={20} />
@@ -31,7 +28,7 @@ function Footer() {
                     </div>
                 </div>
 
-                {/* quick links */}
+                {/* Quick Links */}
                 <div>
                     <h3 className="text-xl font-semibold text-white">Quick Links</h3>
                     <ul className="mt-2 space-y-1">
@@ -56,7 +53,7 @@ function Footer() {
                     </ul>
                 </div>
 
-                {/* contact info */}
+                {/* Contact Info */}
                 <div>
                     <h3 className="text-xl font-semibold text-white">Contact Us</h3>
                     <p className="flex items-center space-x-2 mt-2">
@@ -74,7 +71,7 @@ function Footer() {
 
             {/* Bottom Footer Line */}
             <div className="border-t border-[#555960] mt-6 pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-[#9D9795]">
-                <p>© {new Date().getFullYear()} MEP Kart Team. All rights reserved.</p>
+                <p>© {new Date().getFullYear()} MEP evKart Team. All rights reserved.</p>
                 <a
                     href="https://engineering.purdue.edu/MEP"
                     target="_blank"
