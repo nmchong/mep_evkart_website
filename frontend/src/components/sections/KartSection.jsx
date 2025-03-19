@@ -9,7 +9,7 @@ function KartSection() {
                 Meet Our Kart
             </h2>
             <p className="text-[#C4BFC0] text-lg tracking-wide mt-2">
-                Our 2024 Kart
+                Our 2024 Kart -- 3rd Place
             </p>
 
             {/* Image Container with Glow Border */}

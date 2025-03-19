@@ -36,12 +36,20 @@ function Footer() {
                     <h3 className="text-xl font-semibold text-white">Quick Links</h3>
                     <ul className="mt-2 space-y-1">
                         <li>
-                            <Link to="/about" className="text-[#9D9795] hover:text-[#DAAA00] transition">
+                            <Link
+                                to="/about"
+                                className="text-[#9D9795] hover:text-[#DAAA00] transition"
+                                onClick={() => window.scrollTo(0, 0)}
+                            >
                                 About Us
                             </Link>
                         </li>
                         <li>
-                            <Link to="/sponsors" className="text-[#9D9795] hover:text-[#DAAA00] transition">
+                            <Link
+                                to="/sponsors"
+                                className="text-[#9D9795] hover:text-[#DAAA00] transition"
+                                onClick={() => window.scrollTo(0, 0)}
+                            >
                                 Our Sponsors
                             </Link>
                         </li>

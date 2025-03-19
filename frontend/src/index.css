@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* change entire site background to dark */
+html, body {
+    background-color: #1A1A1A;
+    color: white;
+    min-height: 100vh;
+}
