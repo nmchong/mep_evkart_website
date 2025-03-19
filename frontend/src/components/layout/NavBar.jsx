@@ -7,11 +7,6 @@ function NavBar() {
     const location = useLocation();
 
     useEffect(() => {
-        // always show navbar on all pages
-        if (location.pathname !== "/") {
-            setIsVisible(true);
-            return;
-        }
 
         const handleScroll = () => {
             const currentScrollY = window.scrollY;

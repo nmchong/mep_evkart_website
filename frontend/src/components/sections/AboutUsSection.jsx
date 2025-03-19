@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import teamPhoto from "../../assets/teamPhoto.jpg";
+import TeamPhoto from "../../assets/TeamPhoto.jpg";
 
 function AboutUsSection() {
     return (
         <section className="w-full flex flex-col md:flex-row items-center mx-auto p-10 gap-12 bg-[#555960]">
             {/* image */}
             <div className="w-full md:w-1/2">
-                <img src={teamPhoto} alt="Team Photo" className="w-full h-auto rounded-lg shadow-lg" />
+                <img src={TeamPhoto} alt="Team Photo" className="w-full h-auto rounded-lg shadow-lg" />
             </div>
 
             {/* text content */}
