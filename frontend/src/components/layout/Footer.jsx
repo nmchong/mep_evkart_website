@@ -5,6 +5,9 @@ import { FaGithub, FaInstagram, FaYoutube, FaEnvelope, FaMapMarkerAlt } from "re
 function Footer() {
     return (
         <footer className="w-full bg-[#1A1A1A] text-[#C4BFC0] pt-8 pb-6 px-8">
+            {/* Top Divider Line */}
+            <div className="border-t border-[#555960] mb-6"></div>
+
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
 
                 {/* About Section */}
