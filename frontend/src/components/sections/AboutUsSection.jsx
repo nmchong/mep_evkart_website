@@ -7,7 +7,8 @@ function AboutUsSection() {
         <section className="w-full flex flex-col md:flex-row items-center mx-auto p-10 gap-12 bg-[#555960]">
             {/* image */}
             <div className="w-full md:w-1/2">
-                <img src={TeamPhoto} alt="Team Photo" className="w-full h-auto rounded-lg shadow-lg" />
+            <img src={TeamPhoto} alt="Team Photo" className="w-full h-auto rounded-lg shadow-lg" />
+
             </div>
 
             {/* text content */}
