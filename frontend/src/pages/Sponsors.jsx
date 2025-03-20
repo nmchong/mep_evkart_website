@@ -1,4 +1,5 @@
 import React from "react";
+import SponsorInterestSection from "../components/sections/SponsorInterestSection.jsx";
 
 // Placeholder sponsors with links
 const sponsorsTier1 = [
@@ -21,20 +22,15 @@ const sponsorsTier3 = [
 
 function Sponsors() {
     return (
-        <section className="w-full bg-[#1A1A1A] text-white py-16 px-8 text-center">
+        <section className="w-full bg-[#1A1A1A] text-white py-20 px-8 text-center">
             {/* Title */}
             <h2 className="text-5xl font-bold text-[#EBD99F] mb-8">Our Sponsors</h2>
 
-            {/* Sponsor Interest Section */}
-            <div className="max-w-4xl mx-auto bg-[#2D2F36] p-6 rounded-lg shadow-md border border-[#EBD99F] mb-12">
-                <h3 className="text-3xl font-semibold text-[#DAAA00]">Interested in Becoming a Sponsor?</h3>
-                <p className="text-[#C4BFC0] mt-3">Support our team and gain exposure while making a difference in the community. We offer various sponsorship tiers to fit your company’s goals.</p>
-                <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="inline-block mt-4 px-6 py-2 bg-[#DAAA00] text-black font-semibold rounded-lg shadow-md hover:bg-[#8E6F3E] transition">Learn More</a>
-            </div>
+            <SponsorInterestSection></SponsorInterestSection>
 
             {/* Tier 1 - Largest Donors */}
             <div className="max-w-6xl mx-auto mb-8">
-                <h3 className="text-3xl font-semibold text-[#DAAA00] mb-4">Gold Sponsors</h3>
+                <h3 className="text-3xl font-semibold text-[#DAAA00] mb-4">Gold Sponsors ($xxxxx)</h3>
                 <div className="flex flex-wrap justify-center gap-4"> 
                     {sponsorsTier1.map((sponsor, index) => (
                         <a key={index} href={sponsor.link} target="_blank" rel="noopener noreferrer">
@@ -46,7 +42,7 @@ function Sponsors() {
 
             {/* Tier 2 - Mid-Level Donors */}
             <div className="max-w-6xl mx-auto mb-8">
-                <h3 className="text-2xl font-semibold text-[#EBD99F] mb-4">Silver Sponsors</h3>
+                <h3 className="text-2xl font-semibold text-[#EBD99F] mb-4">Silver Sponsors ($yyyy)</h3>
                 <div className="flex flex-wrap justify-center gap-4">
                     {sponsorsTier2.map((sponsor, index) => (
                         <a key={index} href={sponsor.link} target="_blank" rel="noopener noreferrer">
@@ -58,7 +54,7 @@ function Sponsors() {
 
             {/* Tier 3 - General Sponsors */}
             <div className="max-w-6xl mx-auto">
-                <h3 className="text-xl font-semibold text-[#C4BFC0] mb-4">Bronze Sponsors</h3>
+                <h3 className="text-xl font-semibold text-[#C4BFC0] mb-4">Bronze Sponsors ($zzz)</h3>
                 <div className="flex flex-wrap justify-center gap-3"> 
                     {sponsorsTier3.map((sponsor, index) => (
                         <a key={index} href={sponsor.link} target="_blank" rel="noopener noreferrer">

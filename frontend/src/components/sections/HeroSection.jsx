@@ -3,9 +3,9 @@ import SocialMediaButtons from "../ui/SocialMediaButtons";
 
 const HeroSection = () => {
     return (
-        <section className="flex flex-col items-center justify-center bg-[#CFB991] py-12 md:py-20 pb-10 text-black">
+        <section className="flex flex-col items-center justify-center bg-[#CFB991] pt-50 pb-20 text-black">
             {/* large title */}
-            <h1 className="text-6xl font-bold text-center p-12 mb-10">
+            <h1 className="text-7xl font-bold mb-15">
                 MEP evKart
             </h1>
 
