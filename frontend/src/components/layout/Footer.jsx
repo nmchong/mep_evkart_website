@@ -5,19 +5,19 @@ import { FaGithub, FaInstagram, FaYoutube, FaEnvelope, FaMapMarkerAlt } from "re
 function Footer() {
     return (
         <footer className="w-full bg-[#1A1A1A] text-[#C4BFC0] pt-8 pb-6 px-8">
-            {/* Top Divider Line */}
+            {/* top divider line */}
             <div className="border-t border-[#555960] mb-6"></div>
 
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
 
-                {/* About Section */}
+                {/* about column section */}
                 <div>
                     <h3 className="text-xl font-semibold text-white">MEP evKart Team</h3>
                     <p className="mt-2 text-[#9D9795]">
                         The MEP Kart Team competes in Purdue's collegiate evGrand Prix, showcasing engineering excellence.
                     </p>
                     
-                    {/* Social Media Icons */}
+                    {/* social media icons */}
                     <div className="flex space-x-4 mt-4">
                         <a href="#" className="text-[#9D9795] hover:text-[#DAAA00] transition">
                             <FaGithub size={20} />
@@ -31,7 +31,7 @@ function Footer() {
                     </div>
                 </div>
 
-                {/* Quick Links */}
+                {/* quick links column section */}
                 <div>
                     <h3 className="text-xl font-semibold text-white">Quick Links</h3>
                     <ul className="mt-2 space-y-1">
@@ -56,7 +56,7 @@ function Footer() {
                     </ul>
                 </div>
 
-                {/* Contact Info */}
+                {/* contact info column section */}
                 <div>
                     <h3 className="text-xl font-semibold text-white">Contact Us</h3>
                     <p className="flex items-center space-x-2 mt-2">
@@ -72,7 +72,7 @@ function Footer() {
                 </div>
             </div>
 
-            {/* Bottom Footer Line */}
+            {/* bottom footer line */}
             <div className="border-t border-[#555960] mt-6 pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-[#9D9795]">
                 <p>© {new Date().getFullYear()} MEP evKart Team. All rights reserved.</p>
                 <a
@@ -82,7 +82,7 @@ function Footer() {
                     className="flex items-center space-x-1 text-[#9D9795] hover:text-[#DAAA00] transition"
                 >
                     <span>Minority Engineering Program</span>
-                    <span className="text-lg">↗</span> {/* Up-right arrow */}
+                    <span className="text-lg">↗</span>
                 </a>
             </div>
         </footer>

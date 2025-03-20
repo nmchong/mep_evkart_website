@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// Import images
+// import images
 import Photo1 from "../../assets/Photo1.jpg";
 import Photo2 from "../../assets/Photo2.jpg";
 import Photo3 from "../../assets/Photo3.jpg";
@@ -17,20 +17,20 @@ import Photo8 from "../../assets/Photo8.jpg";
 import Photo9 from "../../assets/Photo9.jpg";
 import Photo10 from "../../assets/Photo10.jpg";
 
-// Array of images
+// array of images
 const images = [Photo1, Photo2, Photo3, Photo4, Photo5, Photo6, Photo7, Photo8, Photo9, Photo10];
 
 const MediaCarouselSection = () => {
-    // Ensure buttons are properly referenced
+    // define buttons to be referenced
     const [prevEl, setPrevEl] = useState(null);
     const [nextEl, setNextEl] = useState(null);
 
     return (
         <section className="w-full bg-[#1A1A1A] text-white py-16 px-8 text-center">
-            {/* Section Header */}
+            {/* header text */}
             <h2 className="text-5xl font-bold text-[#EBD99F] mb-8">Media</h2>
 
-            {/* Carousel Container */}
+            {/* carousel */}
             <div className="relative max-w-3xl mx-auto border border-[#EBD99F] rounded-lg shadow-lg">
                 <Swiper
                     modules={[Navigation, Pagination, Autoplay]}
@@ -49,7 +49,7 @@ const MediaCarouselSection = () => {
                     ))}
                 </Swiper>
 
-                {/* Navigation Buttons - Ensure They're Visible */}
+                {/* nav arrow buttons */}
                 <button
                     ref={(node) => setPrevEl(node)}
                     className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-[#DAAA00] hover:bg-[#8E6F3E] text-black w-12 h-12 flex items-center justify-center rounded-full shadow-md transition z-50"
@@ -64,7 +64,7 @@ const MediaCarouselSection = () => {
                 </button>
             </div>
 
-            {/* Pagination Dots Styling */}
+            {/* carousel bottom dots styling */}
             <style>
                 {`
                 .swiper-pagination-bullet {

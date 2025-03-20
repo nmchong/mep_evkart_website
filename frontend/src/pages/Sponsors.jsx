@@ -1,7 +1,7 @@
 import React from "react";
 import SponsorInterestSection from "../components/sections/SponsorInterestSection.jsx";
 
-// Placeholder sponsors with links
+// sponsors image paths with links
 const sponsorsTier1 = [
     { img: "/assets/sponsor1.jpg", link: "https://google.com" },
     { img: "/assets/sponsor2.jpg", link: "https://google.com" }
@@ -23,12 +23,12 @@ const sponsorsTier3 = [
 function Sponsors() {
     return (
         <section className="w-full bg-[#1A1A1A] text-white py-20 px-8 text-center">
-            {/* Title */}
+            {/* title */}
             <h2 className="text-5xl font-bold text-[#EBD99F] mb-8">Our Sponsors</h2>
 
             <SponsorInterestSection></SponsorInterestSection>
 
-            {/* Tier 1 - Largest Donors */}
+            {/* sponsors tier 1 */}
             <div className="max-w-6xl mx-auto mb-8">
                 <h3 className="text-3xl font-semibold text-[#DAAA00] mb-4">Gold Sponsors ($xxxxx)</h3>
                 <div className="flex flex-wrap justify-center gap-4"> 
@@ -40,7 +40,7 @@ function Sponsors() {
                 </div>
             </div>
 
-            {/* Tier 2 - Mid-Level Donors */}
+            {/* sponsors tier 2 */}
             <div className="max-w-6xl mx-auto mb-8">
                 <h3 className="text-2xl font-semibold text-[#EBD99F] mb-4">Silver Sponsors ($yyyy)</h3>
                 <div className="flex flex-wrap justify-center gap-4">
@@ -52,7 +52,7 @@ function Sponsors() {
                 </div>
             </div>
 
-            {/* Tier 3 - General Sponsors */}
+            {/* sponsors tier 3 */}
             <div className="max-w-6xl mx-auto">
                 <h3 className="text-xl font-semibold text-[#C4BFC0] mb-4">Bronze Sponsors ($zzz)</h3>
                 <div className="flex flex-wrap justify-center gap-3"> 

@@ -6,13 +6,13 @@ import AboutPhoto3 from "../assets/AboutPhoto3.jpg";
 function About() {
     return (
         <section className="w-full bg-[#1A1A1A] text-white py-16 px-8">
-            {/* About Us Section */}
+            {/* about us box */}
             <section className="w-full bg-[#1A1A1A] text-white py-8 px-8"> 
                 <div className="max-w-6xl mx-auto border border-[#EBD99F] rounded-xl p-10 text-center shadow-lg bg-[#222222]/95 backdrop-blur-lg"> {/* Reduced opacity slightly */}
-                    {/* Header */}
+                    {/* header */}
                     <h2 className="text-6xl font-bold text-[#EBD99F]">About Us</h2>
                     
-                    {/* Content */}
+                    {/* paragraph content */}
                     <div className="mt-6 text-lg text-[#C4BFC0] space-y-6">
                         <p>
                             In collaboration with the{" "}
@@ -30,10 +30,10 @@ function About() {
                 </div>
             </section>
 
-            {/* Image & Text Sections */}
+            {/* image and text sections */}
             <div className="max-w-7xl mx-auto mt-12 space-y-28 px-6">
                 
-                {/* Section 1 - Students Lead (Image Left, Text Right) */}
+                {/* section 1 */}
                 <div className="relative flex flex-col md:flex-row items-center">
                     <div className="md:w-[70%] flex justify-center">
                         <img src={AboutPhoto1} alt="Students Lead" className="w-full rounded-lg shadow-lg" />
@@ -46,7 +46,7 @@ function About() {
                     </div>
                 </div>
 
-                {/* Section 2 - Students Learn (Image Right, Text Left) */}
+                {/* section 2 */}
                 <div className="relative flex flex-col md:flex-row-reverse items-center">
                     <div className="md:w-[70%] flex justify-center">
                         <img src={AboutPhoto2} alt="Students Learn" className="w-full rounded-lg shadow-lg" />
@@ -59,7 +59,7 @@ function About() {
                     </div>
                 </div>
 
-                {/* Section 3 - More Info (Image Left, Text Right) */}
+                {/* section 3 */}
                 <div className="relative flex flex-col md:flex-row items-center">
                     <div className="md:w-[70%] flex justify-center">
                         <img src={AboutPhoto3} alt="More Info" className="w-full rounded-lg shadow-lg" />
