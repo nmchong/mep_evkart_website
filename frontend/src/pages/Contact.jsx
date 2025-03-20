@@ -4,7 +4,7 @@ import SponsorInterestSection from "../components/sections/SponsorInterestSectio
 
 function Contact() {
     return (
-        <section className="w-full bg-[#1A1A1A] text-white py-20 px-8 text-center"> {/* Increased top padding */}
+        <section className="w-full bg-[#1A1A1A] text-white py-20 px-8 text-center">
             {/* Title */}
             <h2 className="text-5xl font-bold text-[#EBD99F] mb-8">Contact Us</h2>
 

@@ -6,7 +6,7 @@ function Footer() {
     return (
         <footer className="w-full bg-[#1A1A1A] text-[#C4BFC0] pt-8 pb-6 px-8">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-                
+
                 {/* About Section */}
                 <div>
                     <h3 className="text-xl font-semibold text-white">MEP evKart Team</h3>

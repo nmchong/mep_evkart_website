@@ -6,6 +6,7 @@ import HeroSection from "./components/sections/HeroSection";
 import AboutUsSection from "./components/sections/AboutUsSection"
 import MetricsSection from "./components/sections/MetricsSection"
 import KartSection from "./components/sections/KartSection";
+import MediaCarouselSection from "./components/sections/MediaCarouselSection";
 import About from "./pages/About";
 import Sponsors from "./pages/Sponsors";
 import Contact from "./pages/Contact";
@@ -29,6 +30,7 @@ function App() {
                     <AboutUsSection></AboutUsSection>
                     <MetricsSection></MetricsSection>
                     <KartSection></KartSection>
+                    <MediaCarouselSection></MediaCarouselSection>
                 </>
             }
             />
