@@ -1,11 +1,9 @@
 {
   "dependencies": {
     "@icons-pack/react-simple-icons": "^11.2.0",
-    "@remix-run/node": "^2.16.2",
     "swiper": "^11.2.6"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.16.2",
     "@tailwindcss/postcss": "^4.0.14",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
